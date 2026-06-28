@@ -5,7 +5,7 @@ Launch Metal HUD instantly for games, view connected devices, customize HUD pres
 <img width="300" alt="MetalHUDVideo" src="https://github.com/user-attachments/assets/affeb269-0c07-4c13-90bd-3e12c754ed25" />
 
 ## Download 
-▶ [App Store build - No Xcode required](https://apps.apple.com/app/fps-logger/id6763967836)
+▶ [App Store build](https://apps.apple.com/app/fps-logger/id6763967836)
 
 ## Requirements 
 ▶ macOS Tahoe 26.2 or later and [M1 or later](https://support.apple.com/en-au/116943)
