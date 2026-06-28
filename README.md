@@ -7,15 +7,8 @@ Launch Metal HUD instantly for games, view connected devices, customize HUD pres
 ## Download 
 ▶ [App Store build - No Xcode required](https://apps.apple.com/app/fps-logger/id6763967836)
 
-▶ [Github build - requires Xcode](https://github.com/mrmacright/FPS-Logger/releases)
-
 ## Requirements 
 ▶ macOS Tahoe 26.2 or later and [M1 or later](https://support.apple.com/en-au/116943)
-
-▶ Xcode 26.5 (13GB+ free space required)
-
-> [!NOTE]
-> **Windows is not supported — This app requires `devicectl` which is only available on macOS**
 
 ## Supported platforms for Metal HUD
 
@@ -29,112 +22,6 @@ Launch Metal HUD instantly for games, view connected devices, customize HUD pres
 > - System-wide HUD support is not possible — Metal HUD works per app by design on iOS, iPadOS, & tvOS  
 > - Can I use this app on iPhone or iPad without a Mac? No — Metal HUD requires a Mac for activation on iOS
 > - iOS 16 or earlier is not supported as `devicectl` is unavailable
-
-## CONNECTION HELP
-
-For support email: business@mrmacright.com
-
-### How to launch a game with Metal HUD
-
-Apps are only detectable when already open and in the foreground.
-
-1. Launch the game on your device
-2. Keep it open in the foreground
-3. Click **Show Running Games**
-4. Choose your game → Launch App with Metal HUD
-
-### Device not connecting?
-
-If you can't connect to a device, it's likely not paired correctly. Try the following steps:
-
-1. Connect your iPhone or iPad via USB
-2. Unlock the device
-3. Tap **Trust This Computer** if prompted
-4. On the Mac, click **Allow** if asked to connect the accessory
-
-> [!IMPORTANT]
-> If you previously dismissed the trust prompt, reset it on the device and try again:
-> - Settings → General → Transfer or Reset iPhone → Reset → Reset Location & Privacy
-
-### How to connect to Apple TV
-1. On Apple TV go to Settings > Remotes and Devices > Remote App and Devices
-2. Open Xcode → Window → Devices and Simulators → Discovered
-3. Pair Apple TV → enter verification code → Connect
-4. Open FPS Logger → List Devices
-
-> [!IMPORTANT]
-> Apple TV HD (2015) is not supported
-
-### Custom HUD metrics not working?
-
-Custom metrics, position, and scale require iOS 26, iPadOS 26, or tvOS 26 or later.
-
-iOS 17–18 only support the Default preset.
-
-### Connection states
-
-▶ Available (paired + wireless)
-
-Paired and reachable over Wi-Fi — no USB cable needed.
-
-▶ Connected
-
-Device is connected via USB and ready. Wireless support may still be preparing.
-
-▶ connecting
-
-Device is connected via USB and ready. Wireless support may still be preparing.
-
-▶ Available (preparing) 
-
-Device is visible but still preparing. Pairing may be required. Metal HUD may still work.
-
-If device isn't ready:
-
-- Disconnect and reconnect the USB cable
-- Unlock the device and tap Trust if prompted
-
-▶ Available (pairing required)
-
-Device is visible but may need pairing or trust confirmation. Connect via USB and tap Trust if prompted.
-
-▶ Connected (limited support)
-
-This device may have trouble enabling Metal HUD. If you can't connect, try updating your device or Xcode, or download Xcode beta from the App Store or developer.apple.com. You can still try Show Running Games.
-
-▶ Unavailable
-
-Device is offline, turned off, or not reachable on the same Wi-Fi network.
-
-▶ Unsupported
-
-This device does not support Metal HUD.
-
-### Why isn't Game Mode turning on?
-
-Game Mode turns on automatically for supported games. If it isn't turning on, the game likely doesn't support Game Mode yet. This can only be enabled by the game developer in Xcode — external tools cannot force it on.
-
-### Is it safe to use with online games?
-
-Metal Performance HUD has been widely used in games like PUBG MOBILE, COD: Mobile, and Genshin Impact. However, some anti-cheat systems may detect it and block the game from launching.
-
-Use at your own risk, especially in competitive online games.
-
-### Why isn't Metal HUD showing?
-
-If the game launches but the Metal HUD does not appear, the game is likely not using Metal graphics (for example, it may use OpenGL instead). Metal HUD only works with games powered by Metal.
-
-### Why is a game called something different than its actual name?
-
-This app detects the game's internal app name from the App Store package. Some developers do not use the official game title internally, so certain games may appear with generic names like “Game”.
-
-### Xcode license
-
-Normally the Xcode license is accepted automatically on first launch. If it possibly failed, run this once in Terminal:
-
-```bash
-sudo xcodebuild -license
-```
 
 ## Manual commands in terminal
 
