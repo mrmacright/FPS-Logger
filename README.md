@@ -90,6 +90,3 @@ xcrun devicectl manage unpair --device <DEVICE-UDID>
 [LordOfTheUnicorn](https://github.com/LordOfTheUnicorn)
 
 and to many others who have helped! Thanks
-
-## AI Support
-Built with the help of AI Tools
