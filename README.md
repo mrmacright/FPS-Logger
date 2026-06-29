@@ -7,7 +7,7 @@ MOVED TO MAC APP STORE](https://apps.apple.com/app/fps-logger/id6763967836)
 ## Special thanks
 
 <a href="https://www.elverils.com">
-  <img src="https://github.com/user-attachments/assets/03bb3fe6-1b72-4cfb-99ef-c25b0bf147c9" alt="Elverils logo" width="450" />
+  <img src="https://github.com/user-attachments/assets/03bb3fe6-1b72-4cfb-99ef-c25b0bf147c9" alt="Elverils logo" width="200" />
 </a>
 
 [Nat Brown](https://x.com/natbro?lang=en)
