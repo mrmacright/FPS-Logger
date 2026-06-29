@@ -112,6 +112,8 @@ enum AppData {
         "Shades":                                  "Shades: Shadow Fight Roguelike",
         "TwinShotDeluxe":                          "Twin Shot Deluxe",
         "GungraveGORE_M-IOS-Shipping":             "Gungrave G.O.R.E.",
+        "SeaofStars":                              "Sea of Stars",
+        "SlimeRancher":                            "Slime Rancher",
     ]
 
     // MARK: - Metal HUD Support
@@ -133,6 +135,7 @@ enum AppData {
         "IslandersNewShores", "CultOfTheLamb", "IAmYourBeast", "MonumentValley3",
         "PineHearts", "PowerWashSimulator", "SongsOfConquest", "FreeFire", "FreeFireMAX",
         "AmongTheSleep", "P5X", "RollingSky", "CCCMobile", "CozyCaravan", "Descenders", "ThisAintEvenPokerYaJoker", "BALLxPIT", "NovaDrift", "DrovaMobile", "Minishoot", "NNF_FULLVERSION", "ShadowFight2", "ShadowFight3", "ShadowFight4", "Shades", "Pikuniku", "TwinShotDeluxe", "GungraveGORE_M-IOS-Shipping",
+        "SeaofStars", "SlimeRancher",
         // Display names for apps without aliased internal names
         "Resident Evil 2", "Resident Evil 3", "Resident Evil 4",
         "RESIDENT EVIL 7 biohazard", "Resident Evil Village for iOS",
@@ -147,7 +150,7 @@ enum AppData {
         "Control Ultimate Edition",
         "Cult of the Lamb", "Preserve", "Orlu", "Myst", "Felicitys Door",
         "INMOST", "POOLS", "Besiege", "Timelie", "Maneater", "Vohenn",
-        "Thronefall", "TOEM", "Blasphemous", "Silt",
+        "Thronefall", "TOEM", "Blasphemous", "Silt", "Monster Boy",
     ]
 
     static let metalHUDUnstable: Set<String> = [
@@ -217,7 +220,7 @@ enum AppData {
         "WeatherPlus.app", "WeatherViewer.app",
         // Banking
         "CommBankProd.app", "Xero.app", "Coinbase.app", "Cash.app",
-        "Paytm.app", "PayPal.app", "Cellopark.app", "Chase.app",
+        "Paytm.app", "PayPal.app", "Cellopark.app", "Chase.app", "Wise.app",
         // Fitness
         "Fitbit.app", "Strava.app", "Kubofit GLH Release.app", "Flo.app",
         // VPN

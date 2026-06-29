@@ -61,7 +61,7 @@ struct HUDSettings: Codable, Equatable {
         var displayElements: String {
             switch self {
             case .default:
-                return "device,layersize,fps,frameinterval,gputime,frameintervalgraph"
+                return "device,layersize,fps,frameinterval,gputime,frameintervalgraph,metalfx,memory,gamemode"
             case .custom:
                 return ""
             default:
@@ -73,7 +73,7 @@ struct HUDSettings: Codable, Equatable {
         var elements: String? {
             switch self {
             case .default:
-                return nil
+                return "device,layersize,fps,gputime,frameinterval,frameintervalgraph,metalfx,memory,gamemode"
             case .simple:
                 return "device,layersize,fps"
             case .metalFX:

@@ -99,6 +99,9 @@ final class MainViewModel {
 
         let state = persistence.load()
         hudSettings = state.hudSettings
+        if hudSettings.preset != .custom {
+            hudSettings.applyPreset(hudSettings.preset)
+        }
         analyticsOptIn = state.analyticsOptIn
         agreementsAccepted = state.agreementsAccepted
         commandHistory = state.commandHistory
