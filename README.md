@@ -1,4 +1,4 @@
-# Enable Metal HUD on iPhone, iPad & Apple TV!
+# Enable Metal HUD on iOS
 [
 MOVED TO MAC APP STORE](https://apps.apple.com/app/fps-logger/id6763967836)
 
