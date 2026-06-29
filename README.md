@@ -14,4 +14,6 @@ MOVED TO MAC APP STORE](https://apps.apple.com/app/fps-logger/id6763967836)
 
 [LordOfTheUnicorn](https://github.com/LordOfTheUnicorn)
 
+[Tech Ghost](https://www.youtube.com/techghost)
+
 and to many others who have helped! Thanks
